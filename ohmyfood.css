@@ -1,20 +1,108 @@
-@media all and (max-device-width: 720px) {
-  body {
-    font-family: "Roboto";
-  }
-  header {
-    font-family: "Shrikhand";
-    font-style: italic;
-    width: 100%;
-  }
-  header h1 {
-    position: fixed;
-    top: 0;
-    margin: 0;
-    text-align: center;
-    background-color: white;
-    border: 10px solid white;
-    width: 100%;
-  }
+body {
+  font-family: "Roboto";
+  width: 100%;
+}
+
+header {
+  font-family: "Shrikhand";
+  font-style: italic;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  border: 10px solid white;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+aside {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.reservation--search {
+  background-color: silver;
+  border-top: 2px solid gray;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.reservation--search__input {
+  background-color: silver;
+  border: none;
+  text-align: left;
+  font-size: 1em;
+  padding-left: 15px;
+}
+
+.fa-map-marker-alt {
+  text-align: center;
+  width: 100%;
+  margin-left: 60px;
+}
+
+.reservation--explor {
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reservation--explor strong {
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reservation--explor p {
+  margin-top: 3px;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reservation--explor__btn {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 40px;
+  border: 1px solid #FF79DA;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+ol li {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border: 2px solid #f2f2f2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  width: 20%;
+  padding-left: 15px;
 }
 /*# sourceMappingURL=ohmyfood.css.map */
