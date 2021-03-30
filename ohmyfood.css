@@ -3,6 +3,15 @@ body {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
 header {
   font-family: "Shrikhand";
   font-style: italic;
@@ -21,6 +30,7 @@ header h1 {
   border: 10px solid white;
   width: 100%;
   font-size: 1.5em;
+  z-index: 2;
 }
 
 aside {
@@ -104,5 +114,80 @@ ol li {
   margin-bottom: 25px;
   width: 20%;
   padding-left: 15px;
+}
+
+.restaurant--cards {
+  width: 100%;
+}
+
+.restaurant--cards a {
+  width: 100%;
+}
+
+.restaurant--cards__ligne1, .restaurant--cards__ligne2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.restaurant--cards--1, .restaurant--cards--2, .restaurant--cards--3, .restaurant--cards--4 {
+  width: 90%;
+  margin-left: 10px;
+  border: 4px #f2f2f2 solid;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  margin-right: 15px;
+  margin-left: 45px;
+}
+
+.restaurant--cards img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  height: 300px;
+}
+
+.cards__img2, .cards__img {
+  position: relative;
+}
+
+.cards__img2 span, .cards__img span {
+  background-color: #99E2D0;
+  border: 2px solid #99E2D0;
+  border-radius: 10px;
+  margin-top: 15px;
+  position: absolute;
+  z-index: 1;
+  right: 6%;
+}
+
+.card--1__txt i, .card--2__txt i, .card--4__txt i {
+  position: relative;
+  left: 70%;
+}
+
+.card--3__txt i {
+  position: relative;
+  left: 76%;
+}
+
+footer, footer a, footer li {
+  background-color: grey;
+  color: white;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+footer h3 {
+  font-family: "Shrikhand";
+  margin-left: 40px;
+  padding-top: 15px;
+  font-size: medium;
 }
 /*# sourceMappingURL=ohmyfood.css.map */
