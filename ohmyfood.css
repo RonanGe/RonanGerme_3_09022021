@@ -152,7 +152,7 @@ aside {
   transition: opacity 250ms;
 }
 
-ol li {
+aside li {
   background-color: #f2f2f2;
   border-radius: 20px;
   border: 2px solid #f2f2f2;
@@ -160,7 +160,42 @@ ol li {
   padding-bottom: 12px;
   margin-top: 35px;
   width: 80%;
+  list-style: none;
   padding-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  right: 99%;
+}
+
+.circle__nbr {
+  position: absolute;
+  right: 0.2em;
+}
+
+.fa-circle {
+  color: #9356DC;
+}
+
+.fa-mobile-alt, .fa-list-ul, .fa-store {
+  padding-right: 2%;
 }
 
 .restaurant h3 {
