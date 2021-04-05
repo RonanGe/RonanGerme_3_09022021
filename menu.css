@@ -1,0 +1,145 @@
+body {
+  font-family: "Roboto";
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+header {
+  font-family: "Shrikhand";
+  font-style: italic;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fa-arrow-left {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 3;
+}
+
+header h1 {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  border: 10px solid white;
+  width: 100%;
+  font-size: 1.5em;
+  z-index: 2;
+}
+
+figure {
+  border: 4px solid #f2f2f2;
+  border-radius: 25px;
+  width: 98%;
+  margin-left: 5px;
+}
+
+article {
+  width: 100%;
+}
+
+figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 98%;
+  height: 450px;
+  border-radius: 25px 25px 0px 0px;
+  position: absolute;
+}
+
+figcaption {
+  border: #f2f2f2 5px solid;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  position: relative;
+  z-index: 1;
+  top: 390px;
+}
+
+.fa-heart {
+  float: right;
+  margin-right: 15px;
+}
+
+.menu h2 {
+  font-style: italic;
+  font-family: "Shrihand";
+  width: 100%;
+  font-weight: bolder;
+}
+
+.entree p, .plat p, .dessert p {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #99E2D0;
+  width: 3%;
+}
+
+.entree--1, .entree--2, .entree--3, .entree--4, .plat--1, .plat--2, .plat--3, .dessert--1, .dessert--2, .dessert--3 {
+  border: solid 2px white;
+  background-color: white;
+  border-radius: 25px;
+  width: 75%;
+  margin-bottom: 25px;
+}
+
+.entree--1 p, .entree--2 p, .entree--3 p, .entree--4 p, .plat--1 p, .plat--2 p, .plat--3 p, .dessert--1 p, .dessert--2 p, .dessert--3 p {
+  padding-bottom: 0;
+  border-bottom: none;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.entree--1 h3, .entree--2 h3, .entree--3 h3, .entree--4 h3, .plat--1 h3, .plat--2 h3, .plat--3 h3, .dessert--1 h3, .dessert--2 h3, .dessert--3 h3 {
+  margin-left: 15px;
+}
+
+.entree--1 span, .entree--2 span, .entree--3 span, .entree--4 span, .plat--1 span, .plat--2 span, .plat--3 span, .dessert--1 span, .dessert--2 span, .dessert--3 span {
+  float: right;
+  margin-right: 30px;
+}
+
+.menu_btn--action {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 40px;
+  border: 1px solid #FF79DA;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: medium;
+}
+
+footer {
+  margin-top: 400px;
+  z-index: 4;
+  position: relative;
+}
+
+footer, footer a, footer li {
+  background-color: grey;
+  color: white;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+footer h3 {
+  font-family: "Shrikhand";
+  margin-left: 40px;
+  padding-top: 15px;
+  font-size: medium;
+}
+/*# sourceMappingURL=menu.css.map */
