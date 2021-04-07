@@ -81,17 +81,34 @@ figcaption {
   font-weight: bolder;
 }
 
+.menu_carte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.entree, .plat, .dessert {
+  margin-left: 40px;
+}
+
 .entree p, .plat p, .dessert p {
   padding-bottom: 15px;
   border-bottom: 2px solid #99E2D0;
-  width: 3%;
+  width: 8%;
 }
 
 .entree--1, .entree--2, .entree--3, .entree--4, .plat--1, .plat--2, .plat--3, .dessert--1, .dessert--2, .dessert--3 {
   border: solid 2px white;
   background-color: white;
   border-radius: 25px;
-  width: 75%;
+  width: 100%;
   margin-bottom: 25px;
 }
 
