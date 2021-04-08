@@ -95,7 +95,8 @@ figcaption {
 }
 
 .entree, .plat, .dessert {
-  margin-left: 40px;
+  margin-left: 30px;
+  width: 31%;
 }
 
 .entree p, .plat p, .dessert p {
@@ -110,6 +111,12 @@ figcaption {
   border-radius: 25px;
   width: 100%;
   margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .entree--1 p, .entree--2 p, .entree--3 p, .entree--4 p, .plat--1 p, .plat--2 p, .plat--3 p, .dessert--1 p, .dessert--2 p, .dessert--3 p {
@@ -117,15 +124,39 @@ figcaption {
   border-bottom: none;
   width: 100%;
   margin-left: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .entree--1 h3, .entree--2 h3, .entree--3 h3, .entree--4 h3, .plat--1 h3, .plat--2 h3, .plat--3 h3, .dessert--1 h3, .dessert--2 h3, .dessert--3 h3 {
   margin-left: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.entree--1 span, .entree--2 span, .entree--3 span, .entree--4 span, .plat--1 span, .plat--2 span, .plat--3 span, .dessert--1 span, .dessert--2 span, .dessert--3 span {
-  float: right;
-  margin-right: 30px;
+.menu_txt {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+  font-size: small;
+}
+
+.price-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  text-align: right;
 }
 
 .menu_btn--action {
@@ -158,5 +189,36 @@ footer h3 {
   margin-left: 40px;
   padding-top: 15px;
   font-size: medium;
+}
+
+@media all and (max-width: 720px) {
+  .menu_carte {
+    display: inline-block;
+  }
+  figure img {
+    height: 350px;
+  }
+  figcaption {
+    top: 300px;
+  }
+  .entree p, .plat p, .dessert p {
+    width: 12%;
+  }
+  .entree, .plat, .dessert {
+    margin-left: 0;
+    width: 100%;
+  }
+  .entree--1, .entree--2, .entree--3, .entree--4, .plat--1, .plat--2, .plat--3, .dessert--1, .dessert--2, .dessert--3 {
+    width: 95%;
+  }
+  .entree--1 p, .entree--2 p, .entree--3 p, .entree--4 p, .plat--1 p, .plat--2 p, .plat--3 p, .dessert--1 p, .dessert--2 p, .dessert--3 p {
+    width: 95%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .entree--1 h3, .entree--2 h3, .entree--3 h3, .entree--4 h3, .plat--1 h3, .plat--2 h3, .plat--3 h3, .dessert--1 h3, .dessert--2 h3, .dessert--3 h3 {
+    font-size: small;
+  }
 }
 /*# sourceMappingURL=menu.css.map */

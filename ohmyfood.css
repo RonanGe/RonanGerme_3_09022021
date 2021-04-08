@@ -103,6 +103,7 @@ aside {
       -ms-flex-align: center;
           align-items: center;
   height: 300px;
+  padding-top: 15px;
 }
 
 .reservation--explor strong {
@@ -159,7 +160,7 @@ aside li {
   padding-top: 20px;
   padding-bottom: 12px;
   margin-top: 35px;
-  width: 80%;
+  width: 70%;
   list-style: none;
   padding-left: 15px;
   display: -webkit-box;
@@ -170,6 +171,8 @@ aside li {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
+  -webkit-box-shadow: 6px 6px 10px silver;
+          box-shadow: 6px 6px 10px silver;
 }
 
 .circle {
@@ -187,7 +190,10 @@ aside li {
 
 .circle__nbr {
   position: absolute;
-  right: 0.2em;
+  right: 0.4em;
+  top: 0.1em;
+  color: white;
+  font-size: 0.7em;
 }
 
 .fa-circle {
@@ -196,6 +202,10 @@ aside li {
 
 .fa-mobile-alt, .fa-list-ul, .fa-store {
   padding-right: 2%;
+}
+
+.fa-store {
+  color: #9356DC;
 }
 
 .restaurant h3 {
@@ -229,6 +239,8 @@ aside li {
   background-color: #f2f2f2;
   margin-right: 15px;
   margin-left: 45px;
+  -webkit-box-shadow: 4px 4px 10px silver;
+          box-shadow: 4px 4px 10px silver;
 }
 
 .restaurant--cards img {
@@ -279,20 +291,31 @@ footer h3 {
   }
 }
 
-@media all and (max-device-width: 720px) {
+@media all and (max-width: 720px) {
+  body {
+    margin-right: 0;
+  }
   header h1 {
     padding-top: 15px;
   }
   aside {
     display: inline;
   }
+  aside li {
+    width: 90%;
+  }
   .reservation {
     margin-top: 140px;
     margin-bottom: 45px;
     height: 350px;
+    width: 100%;
   }
   .working {
     margin-bottom: 75px;
+    margin-left: 0;
+  }
+  .working p {
+    margin-left: 15px;
   }
   section {
     background-color: #f2f2f2;
@@ -306,13 +329,18 @@ footer h3 {
     border: 2px solid white;
     background-color: white;
     border-radius: 15px;
+    margin-left: 15px;
+    height: 275px;
+  }
+  .restaurant--cards--1 img, .restaurant--cards--2 img, .restaurant--cards--3 img, .restaurant--cards--4 img {
+    height: 175px;
   }
   .card--1__txt i, .card--2__txt i, .card--4__txt i, .card--3__txt i {
     margin-right: 5%;
     margin-top: 5%;
   }
   .cards__img2 span, .cards__img span {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   footer i {
     margin-right: 3px;
