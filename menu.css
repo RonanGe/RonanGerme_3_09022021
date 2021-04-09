@@ -191,6 +191,25 @@ footer h3 {
   font-size: medium;
 }
 
+@media all and (max-width: 1340px) {
+  .menu_carte {
+    display: inline-block;
+  }
+  .entree, .plat, .dessert {
+    margin-left: 0;
+    width: 80%;
+  }
+  .entree p, .plat p, .dessert p {
+    width: 5%;
+  }
+  .entree--1 p, .entree--2 p, .entree--3 p, .entree--4 p, .plat--1 p, .plat--2 p, .plat--3 p, .dessert--1 p, .dessert--2 p, .dessert--3 p {
+    width: 95%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
 @media all and (max-width: 720px) {
   .menu_carte {
     display: inline-block;
