@@ -99,6 +99,39 @@ figcaption {
   width: 31%;
 }
 
+.entree {
+  -webkit-animation: fadein 6s;
+          animation: fadein 6s;
+}
+
+.plat {
+  -webkit-animation: fadein 12s;
+          animation: fadein 12s;
+}
+
+.dessert {
+  -webkit-animation: fadein 18s;
+          animation: fadein 18s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .entree p, .plat p, .dessert p {
   padding-bottom: 15px;
   border-bottom: 2px solid #99E2D0;
@@ -229,6 +262,62 @@ footer h3 {
   }
   .entree--1, .entree--2, .entree--3, .entree--4, .plat--1, .plat--2, .plat--3, .dessert--1, .dessert--2, .dessert--3 {
     width: 95%;
+  }
+  .entree--1 {
+    -webkit-animation: fadein 5s;
+            animation: fadein 5s;
+  }
+  .entree--2 {
+    -webkit-animation: fadein 10s;
+            animation: fadein 10s;
+  }
+  .entree--3 {
+    -webkit-animation: fadein 15s;
+            animation: fadein 15s;
+  }
+  .entree--4 {
+    -webkit-animation: fadein 17s;
+            animation: fadein 17s;
+  }
+  .plat--1 {
+    -webkit-animation: fadein 19s;
+            animation: fadein 19s;
+  }
+  .plat--2 {
+    -webkit-animation: fadein 22s;
+            animation: fadein 22s;
+  }
+  .plat--3 {
+    -webkit-animation: fadein 25s;
+            animation: fadein 25s;
+  }
+  .dessert--1 {
+    -webkit-animation: fadein 27s;
+            animation: fadein 27s;
+  }
+  .dessert--2 {
+    -webkit-animation: fadein 30s;
+            animation: fadein 30s;
+  }
+  .dessert--3 {
+    -webkit-animation: fadein 32s;
+            animation: fadein 32s;
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
   .entree--1 p, .entree--2 p, .entree--3 p, .entree--4 p, .plat--1 p, .plat--2 p, .plat--3 p, .dessert--1 p, .dessert--2 p, .dessert--3 p {
     width: 95%;
