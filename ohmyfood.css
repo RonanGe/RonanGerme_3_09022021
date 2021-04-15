@@ -340,10 +340,42 @@ aside li {
   right: 6%;
 }
 
-.card--1__txt i, .card--2__txt i, .card--4__txt i, .card--3__txt i {
-  float: right;
-  margin-right: 40px;
-  margin-top: 25px;
+figcaption p {
+  margin-top: 0;
+}
+
+.heart {
+  position: relative;
+  left: 90%;
+}
+
+.heart .fa-heart.full {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.heart i {
+  left: 90%;
+}
+
+.heart:hover {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.heart:hover .empty {
+  opacity: 0;
+  -webkit-transition: 0.5s 0s ease;
+  transition: 0.5s 0s ease;
+}
+
+.heart:hover .full {
+  opacity: 1;
+  -webkit-transition: 0.5 0 ease;
+  transition: 0.5 0 ease;
+  z-index: 999;
+  color: #9356DC;
 }
 
 footer, footer a, footer li {
@@ -416,6 +448,22 @@ footer h3 {
   }
   .cards__img2 span, .cards__img span {
     font-size: 1em;
+  }
+  .heart:active {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .heart:active .empty {
+    opacity: 0;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+  }
+  .heart:active .full {
+    opacity: 1;
+    -webkit-transition: 0.5 0 ease;
+    transition: 0.5 0 ease;
+    z-index: 999;
+    color: #9356DC;
   }
   footer i {
     margin-right: 3px;
