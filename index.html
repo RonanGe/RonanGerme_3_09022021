@@ -11,6 +11,8 @@
 		<title>Ohmyfood</title>
 	</head>
     <body>
+
+    <div class="page">
         <header>
             <h1>Ohmyfood</h1>
         </header>
@@ -24,7 +26,9 @@
                     <div class="reservation--explor">
                         <p><strong>Réservez le menu qui vous convient</strong></p>
                         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
-                        <input type="submit" value="Explorer nos restaurants" class="reservation--explor__btn"/>
+                        <button class="reservation--explor__btn">
+                            Explorer nos restaurants
+                        <div class="reservation--explor__btn__bg"></div></button>
                     </div>
                 </form>
             </div>
@@ -118,7 +122,6 @@
                 </div>
             </div>
         </section>
-
         <footer>
             <h3>ohmyfood</h3>
             <ul>
@@ -128,5 +131,7 @@
                 <li><a href="mailto:ohmyfood@gmail.com">Contact</a></li>
             </ul>
         </footer>
+    </div>
+        <div class="spinner" id="loader"></div>
     </body>
 </html>

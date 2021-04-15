@@ -3,6 +3,79 @@ body {
   width: 100%;
 }
 
+.spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #9356DC;
+  border-bottom: 16px solid #FF79DA;
+  -webkit-animation: spin 2s linear;
+          animation: spin 2s linear;
+  opacity: 0;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.page {
+  position: relative;
+  -webkit-animation-name: page;
+          animation-name: page;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes page {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes page {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -135,11 +208,11 @@ aside {
   z-index: 1;
 }
 
-.reservation--explor__btn:hover::after {
-  opacity: 0;
+.reservation--explor__btn:hover .reservation--explor__btn__bg {
+  opacity: 1;
 }
 
-.reservation--explor__btn::after {
+.reservation--explor__btn__bg {
   content: "";
   position: absolute;
   top: 0;
@@ -147,10 +220,12 @@ aside {
   bottom: 0;
   left: 0;
   background: radial-gradient(circle, #bc95e9 100%, #ff60d3 0%);
-  opacity: 1;
+  opacity: 0;
   z-index: -1;
   -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
+  border-radius: 40px;
+  font-size: medium;
 }
 
 aside li {
