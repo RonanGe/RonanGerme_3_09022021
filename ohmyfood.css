@@ -449,6 +449,18 @@ footer h3 {
   .cards__img2 span, .cards__img span {
     font-size: 1em;
   }
+  .heart {
+    position: relative;
+    left: 90%;
+  }
+  .heart .fa-heart.full {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+  }
+  .heart i {
+    left: 90%;
+  }
   .heart:active {
     overflow: hidden;
     cursor: pointer;
