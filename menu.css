@@ -152,6 +152,10 @@ figcaption {
           justify-content: space-between;
 }
 
+.entree--1:hover .check, .entree--2:hover .check, .entree--3:hover .check, .entree--4:hover .check, .plat--1:hover .check, .plat--2:hover .check, .plat--3:hover .check, .dessert--1:hover .check, .dessert--2:hover .check, .dessert--3:hover .check {
+  display: block;
+}
+
 .entree--1 p, .entree--2 p, .entree--3 p, .entree--4 p, .plat--1 p, .plat--2 p, .plat--3 p, .dessert--1 p, .dessert--2 p, .dessert--3 p {
   padding-bottom: 0;
   border-bottom: none;
@@ -192,6 +196,23 @@ figcaption {
   text-align: right;
 }
 
+.check {
+  background-color: #99E2D0;
+  width: 10%;
+  border-radius: 0px 25px 25px 0px;
+  position: relative;
+  display: none;
+}
+
+.fa-check-circle {
+  color: white;
+  background-color: #99E2D0;
+  font-size: 1.3em;
+  position: absolute;
+  left: 12px;
+  top: 50px;
+}
+
 .menu_btn {
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
@@ -217,7 +238,7 @@ figcaption {
   right: 0;
   bottom: 0;
   left: 0;
-  background: radial-gradient(circle, #bc95e9 100%, #ff60d3 0%);
+  background: #bc95e9;
   opacity: 0;
   z-index: -1;
   -webkit-transition: opacity 250ms;

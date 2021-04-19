@@ -219,7 +219,7 @@ aside {
   right: 0;
   bottom: 0;
   left: 0;
-  background: radial-gradient(circle, #bc95e9 100%, #ff60d3 0%);
+  background: #bc95e9;
   opacity: 0;
   z-index: -1;
   -webkit-transition: opacity 250ms;
