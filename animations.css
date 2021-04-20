@@ -1,0 +1,169 @@
+.heart .fa-heart.full {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.heart i {
+  left: 90%;
+}
+
+.heart:hover {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.heart:hover .empty {
+  opacity: 0;
+  -webkit-transition: 0.5s 0s ease;
+  transition: 0.5s 0s ease;
+}
+
+.heart:hover .full {
+  opacity: 1;
+  -webkit-transition: 0.5 0 ease;
+  transition: 0.5 0 ease;
+  z-index: 999;
+  color: #9356DC;
+}
+
+.entree {
+  -webkit-animation: fadein 6s;
+          animation: fadein 6s;
+}
+
+.plat {
+  -webkit-animation: fadein 12s;
+          animation: fadein 12s;
+}
+
+.dessert {
+  -webkit-animation: fadein 18s;
+          animation: fadein 18s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 40px;
+  border: 1px solid #FF79DA;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: medium;
+  position: relative;
+  z-index: 1;
+}
+
+.btn:hover .btn_bg {
+  opacity: 1;
+}
+
+.btn_bg {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #bc95e9;
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+  border-radius: 40px;
+  font-size: medium;
+}
+
+.spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #9356DC;
+  border-bottom: 16px solid #FF79DA;
+  -webkit-animation: spin 2s linear;
+          animation: spin 2s linear;
+  opacity: 0;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.page {
+  position: relative;
+  -webkit-animation-name: page;
+          animation-name: page;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes page {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes page {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=animations.css.map */
