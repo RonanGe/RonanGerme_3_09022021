@@ -69,9 +69,39 @@ figcaption {
   top: 390px;
 }
 
-.fa-heart {
-  float: right;
-  margin-right: 15px;
+.heart {
+  position: relative;
+  left: 90%;
+  bottom: 70px;
+}
+
+.heart .fa-heart.full {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.heart i {
+  left: 90%;
+}
+
+.heart:hover {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.heart:hover .empty {
+  opacity: 0;
+  -webkit-transition: 0.5s 0s ease;
+  transition: 0.5s 0s ease;
+}
+
+.heart:hover .full {
+  opacity: 1;
+  -webkit-transition: 0.5 0 ease;
+  transition: 0.5 0 ease;
+  z-index: 999;
+  color: #9356DC;
 }
 
 .menu h2 {
@@ -198,7 +228,7 @@ figcaption {
 
 .check {
   background-color: #99E2D0;
-  width: 10%;
+  width: 15%;
   border-radius: 0px 25px 25px 0px;
   position: relative;
   display: none;
@@ -209,7 +239,7 @@ figcaption {
   background-color: #99E2D0;
   font-size: 1.3em;
   position: absolute;
-  left: 12px;
+  left: 23px;
   top: 50px;
 }
 
@@ -267,7 +297,17 @@ footer h3 {
   font-size: medium;
 }
 
+@media all and (min-width: 1341px) and (max-width: 1610px) {
+  .fa-check-circle {
+    left: 15px;
+  }
+}
+
 @media all and (max-width: 1340px) {
+  header h1 {
+    text-align: justify;
+    padding-left: 15%;
+  }
   .menu_carte {
     display: inline-block;
   }
@@ -284,9 +324,60 @@ footer h3 {
     white-space: nowrap;
     overflow: hidden;
   }
+  .check {
+    width: 10%;
+  }
 }
 
 @media all and (max-width: 720px) {
+  header h1 {
+    text-align: justify;
+    padding-left: 15%;
+  }
+  .heart {
+    position: relative;
+    left: 90%;
+  }
+  .heart .fa-heart.full {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+  }
+  .heart i {
+    left: 90%;
+  }
+  .heart:active {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .heart:active .empty {
+    opacity: 0;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+  }
+  .heart:active .full {
+    opacity: 1;
+    -webkit-transition: 0.5 0 ease;
+    transition: 0.5 0 ease;
+    z-index: 999;
+    color: #9356DC;
+  }
+  .heart:hover {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .heart:hover .empty {
+    opacity: 0;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+  }
+  .heart:hover .full {
+    opacity: 1;
+    -webkit-transition: 0.5 0 ease;
+    transition: 0.5 0 ease;
+    z-index: 999;
+    color: #9356DC;
+  }
   .menu_carte {
     display: inline-block;
   }
@@ -370,6 +461,15 @@ footer h3 {
   }
   .entree--1 h3, .entree--2 h3, .entree--3 h3, .entree--4 h3, .plat--1 h3, .plat--2 h3, .plat--3 h3, .dessert--1 h3, .dessert--2 h3, .dessert--3 h3 {
     font-size: small;
+  }
+  .price-contain {
+    margin-left: 15px;
+  }
+  .check {
+    width: 15%;
+  }
+  .fa-check-circle {
+    font-size: medium;
   }
 }
 /*# sourceMappingURL=menu.css.map */
