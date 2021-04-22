@@ -28,18 +28,18 @@
 }
 
 .entree {
-  -webkit-animation: fadein 6s;
-          animation: fadein 6s;
+  -webkit-animation: fadein 4s;
+          animation: fadein 4s;
 }
 
 .plat {
-  -webkit-animation: fadein 12s;
-          animation: fadein 12s;
+  -webkit-animation: fadein 8s;
+          animation: fadein 8s;
 }
 
 .dessert {
-  -webkit-animation: fadein 18s;
-          animation: fadein 18s;
+  -webkit-animation: fadein 12s;
+          animation: fadein 12s;
 }
 
 @-webkit-keyframes fadein {
