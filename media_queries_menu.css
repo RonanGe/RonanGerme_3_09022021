@@ -83,12 +83,12 @@
   }
   .menu_ligne {
     width: 95%;
-    -webkit-transform: translate(0px, 40px);
-            transform: translate(0px, 40px);
-    -webkit-transition: -webkit-transform 5s ease-in-out;
-    transition: -webkit-transform 5s ease-in-out;
-    transition: transform 5s ease-in-out;
-    transition: transform 5s ease-in-out, -webkit-transform 5s ease-in-out;
+    -webkit-transform: translate(0px, 10px);
+            transform: translate(0px, 10px);
+    -webkit-transition: -webkit-transform 5s ease;
+    transition: -webkit-transform 5s ease;
+    transition: transform 5s ease;
+    transition: transform 5s ease, -webkit-transform 5s ease;
   }
   .entree--1 {
     -webkit-animation: fadein 2s;
@@ -133,21 +133,17 @@
   @-webkit-keyframes fadein {
     from {
       opacity: 0;
-      top: 10px;
     }
     to {
       opacity: 1;
-      top: 0px;
     }
   }
   @keyframes fadein {
     from {
       opacity: 0;
-      top: 10px;
     }
     to {
       opacity: 1;
-      top: 0px;
     }
   }
   .menu_ligne p {
