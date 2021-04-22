@@ -68,6 +68,9 @@
   .menu_carte {
     display: inline-block;
   }
+  .menu_carte h3 {
+    margin-bottom: 0px;
+  }
   figure img {
     height: 350px;
   }
@@ -83,8 +86,8 @@
   }
   .menu_ligne {
     width: 95%;
-    -webkit-transform: translate(0px, 10px);
-            transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 20px);
+            transform: translate(0px, 20px);
     -webkit-transition: -webkit-transform 5s ease;
     transition: -webkit-transform 5s ease;
     transition: transform 5s ease;
