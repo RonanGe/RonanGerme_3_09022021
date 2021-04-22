@@ -21,8 +21,8 @@
 
 .heart:hover .full {
   opacity: 1;
-  -webkit-transition: 0.5 0 ease;
-  transition: 0.5 0 ease;
+  -webkit-transition: 0.5s 0s ease;
+  transition: 0.5s 0s ease;
   z-index: 999;
   color: #9356DC;
 }
@@ -164,6 +164,42 @@
   to {
     bottom: 0;
     opacity: 1;
+  }
+}
+
+.fa-check-circle {
+  margin: 0;
+  -webkit-animation: rotate 800ms ease-in-out;
+          animation: rotate 800ms ease-in-out;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    top: 39%;
+    left: 26%;
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    top: 39%;
+    left: 26%;
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    top: 39%;
+    left: 26%;
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    top: 39%;
+    left: 26%;
   }
 }
 /*# sourceMappingURL=animations.css.map */

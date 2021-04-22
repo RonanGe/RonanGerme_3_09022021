@@ -44,8 +44,8 @@
   }
   .heart:active .full {
     opacity: 1;
-    -webkit-transition: 0.5 0 ease;
-    transition: 0.5 0 ease;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
     z-index: 999;
     color: #9356DC;
   }
@@ -60,8 +60,8 @@
   }
   .heart:hover .full {
     opacity: 1;
-    -webkit-transition: 0.5 0 ease;
-    transition: 0.5 0 ease;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
     z-index: 999;
     color: #9356DC;
   }
