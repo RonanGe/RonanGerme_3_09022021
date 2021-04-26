@@ -185,12 +185,14 @@ aside li {
   width: 100%;
 }
 
-.heart {
+figcaption {
   position: relative;
-  left: 90%;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
+}
+
+.heart {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
 }
 
 .restaurant--cards a {
