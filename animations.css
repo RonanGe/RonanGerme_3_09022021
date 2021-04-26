@@ -182,8 +182,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
-            transform: translate(-50%, -50%) rotate(-90deg);
+    -webkit-transform: translate(-50%, -50%) rotate(-540deg);
+            transform: translate(-50%, -50%) rotate(-540deg);
   }
   to {
     position: absolute;
@@ -199,8 +199,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
-            transform: translate(-50%, -50%) rotate(-90deg);
+    -webkit-transform: translate(-50%, -50%) rotate(-540deg);
+            transform: translate(-50%, -50%) rotate(-540deg);
   }
   to {
     position: absolute;
