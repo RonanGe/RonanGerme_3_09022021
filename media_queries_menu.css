@@ -86,12 +86,12 @@
   }
   .menu_ligne {
     width: 95%;
-    -webkit-transform: translate(0px, 20px);
-            transform: translate(0px, 20px);
-    -webkit-transition: -webkit-transform 5s ease;
-    transition: -webkit-transform 5s ease;
-    transition: transform 5s ease;
-    transition: transform 5s ease, -webkit-transform 5s ease;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    -webkit-transition: -webkit-transform 5s ease-out;
+    transition: -webkit-transform 5s ease-out;
+    transition: transform 5s ease-out;
+    transition: transform 5s ease-out, -webkit-transform 5s ease-out;
   }
   .entree--1 {
     -webkit-animation: fadein 2s;
