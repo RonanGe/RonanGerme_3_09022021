@@ -173,8 +173,8 @@
 
 .fa-check-circle {
   margin: 0;
-  -webkit-animation: rotate 800ms ease-in-out;
-          animation: rotate 800ms ease-in-out;
+  -webkit-animation: rotate 300ms ease-in-out;
+          animation: rotate 300ms ease-in-out;
 }
 
 @-webkit-keyframes rotate {
@@ -182,8 +182,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) rotate(90deg);
-            transform: translate(-50%, -50%) rotate(90deg);
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+            transform: translate(-50%, -50%) rotate(-90deg);
   }
   to {
     position: absolute;
@@ -199,8 +199,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) rotate(90deg);
-            transform: translate(-50%, -50%) rotate(90deg);
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+            transform: translate(-50%, -50%) rotate(-90deg);
   }
   to {
     position: absolute;
