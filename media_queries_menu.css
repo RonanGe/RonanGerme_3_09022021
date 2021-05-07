@@ -4,13 +4,13 @@
   }
   .entree, .plat, .dessert {
     margin-left: 0;
-    width: 80%;
+    width: 97%;
   }
   .entree p, .plat p, .dessert p {
     width: 5%;
   }
   .menu_ligne p {
-    width: 95%;
+    width: 100%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -154,15 +154,16 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-size: x-small;
   }
   .menu_ligne h3 {
-    font-size: small;
+    font-size: x-small;
   }
   .price-contain {
     margin-left: 15px;
   }
   .check {
-    width: 15%;
+    width: 25%;
   }
   .fa-check-circle {
     font-size: medium;
