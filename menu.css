@@ -2,6 +2,7 @@ body {
   font-family: "Roboto";
   width: 100%;
   overflow-x: hidden;
+  margin: 0;
 }
 
 a {
@@ -47,7 +48,7 @@ header h1 {
 }
 
 figure {
-  border: 4px solid #f2f2f2;
+  border: 4px solid #f6f6f6;
   border-radius: 25px;
   width: 98%;
   margin-left: 5px;
@@ -67,9 +68,9 @@ figure img {
 }
 
 figcaption {
-  border: #f2f2f2 5px solid;
+  border: #f6f6f6 5px solid;
   border-radius: 25px;
-  background-color: #f2f2f2;
+  background-color: #f6f6f6;
   position: relative;
   z-index: 1;
   top: 390px;
@@ -77,9 +78,9 @@ figcaption {
 
 .menu h2 {
   font-style: italic;
-  font-family: "Shrihand";
+  font-family: "Shrikhand";
   width: 100%;
-  font-weight: bolder;
+  font-size: 1.2em;
 }
 
 .menu_carte {
@@ -98,6 +99,7 @@ figcaption {
 .entree, .plat, .dessert {
   margin-left: 30px;
   width: 31%;
+  font-size: 1em;
 }
 
 .entree p, .plat p, .dessert p {
@@ -184,6 +186,10 @@ figcaption {
           transform: translate(-50%, -50%);
 }
 
+.btn {
+  margin-left: 15px;
+}
+
 footer {
   margin-top: 400px;
   z-index: 4;
@@ -191,7 +197,7 @@ footer {
 }
 
 footer, footer a, footer li {
-  background-color: grey;
+  background-color: #353535;
   color: white;
   list-style: none;
   padding-bottom: 10px;

@@ -80,6 +80,9 @@
   .entree p, .plat p, .dessert p {
     width: 12%;
   }
+  .plat p, .dessert p {
+    padding-top: 20px;
+  }
   .entree, .plat, .dessert {
     margin-left: 0;
     width: 100%;
@@ -155,6 +158,7 @@
     white-space: nowrap;
     overflow: hidden;
     font-size: x-small;
+    padding-top: 0;
   }
   .menu_ligne h3 {
     font-size: x-small;
@@ -167,6 +171,9 @@
   }
   .fa-check-circle {
     font-size: medium;
+  }
+  footer {
+    margin-top: 260px;
   }
 }
 /*# sourceMappingURL=media_queries_menu.css.map */
