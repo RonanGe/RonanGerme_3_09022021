@@ -95,6 +95,7 @@
     transition: -webkit-transform 5s ease-out;
     transition: transform 5s ease-out;
     transition: transform 5s ease-out, -webkit-transform 5s ease-out;
+    border-radius: 15px;
   }
   .entree--1 {
     -webkit-animation: fadein 2s;
@@ -157,14 +158,18 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    font-size: x-small;
+    font-size: 0.9em;
     padding-top: 0;
   }
   .menu_ligne h3 {
-    font-size: x-small;
+    font-size: 1em;
   }
   .price-contain {
     margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .price {
+    font-size: 0.9em;
   }
   .check {
     width: 25%;

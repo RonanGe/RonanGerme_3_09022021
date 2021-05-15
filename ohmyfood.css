@@ -15,7 +15,6 @@ a:hover {
 
 header {
   font-family: "Shrikhand";
-  font-style: italic;
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -121,6 +120,10 @@ aside {
   text-align: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.reservation--explor .btn {
+  padding: 20px;
 }
 
 aside li {

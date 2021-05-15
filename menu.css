@@ -16,7 +16,6 @@ a:hover {
 
 header {
   font-family: "Shrikhand";
-  font-style: italic;
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -77,7 +76,6 @@ figcaption {
 }
 
 .menu h2 {
-  font-style: italic;
   font-family: "Shrikhand";
   width: 100%;
   font-size: 1.2em;
