@@ -171,6 +171,7 @@ aside li {
           flex-direction: row;
   right: 99%;
   font-size: 1.4em;
+  top: 12px;
 }
 
 .circle__nbr {

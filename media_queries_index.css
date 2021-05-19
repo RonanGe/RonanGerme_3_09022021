@@ -14,7 +14,7 @@
   }
   header h1 {
     display: block;
-    width: 100%;
+    width: 78%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -59,11 +59,17 @@
     margin-left: 15px;
     font-size: 1.4em;
   }
+  .circle {
+    top: 12px;
+  }
   .fa-circle {
     font-size: 1.2em;
+    margin-bottom: 10px;
   }
   .circle__nbr {
     font-size: 0.9em;
+    margin-bottom: 7px;
+    margin-left: 2px;
   }
   .symbole {
     font-size: 1.1em;
@@ -234,13 +240,18 @@
     font-size: 1.4em;
     font-weight: bolder;
   }
+  .circle {
+    top: 15px;
+  }
   .fa-circle {
     font-size: 1.2em;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .circle__nbr {
     font-size: 0.9em;
     font-weight: lighter;
+    margin-bottom: 7px;
+    margin-left: 2px;
   }
   .symbole {
     padding-left: 10px;
