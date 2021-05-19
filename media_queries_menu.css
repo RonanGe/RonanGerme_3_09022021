@@ -79,6 +79,8 @@
   }
   .entree p, .plat p, .dessert p {
     width: 12%;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
   }
   .plat p, .dessert p {
     padding-top: 20px;
@@ -158,11 +160,11 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 0.9em;
+    font-size: 1em;
     padding-top: 0;
   }
   .menu_ligne h3 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .price-contain {
     margin-left: 15px;

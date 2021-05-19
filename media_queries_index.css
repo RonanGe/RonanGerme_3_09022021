@@ -150,10 +150,12 @@
     display: inline;
   }
   aside li {
-    width: 95%;
+    width: 85%;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 1.1em;
+    font-size: 1em;
+    margin-left: 15px;
+    font-weight: bold;
   }
   aside ul {
     padding-left: 20px;
@@ -184,7 +186,7 @@
     font-weight: bolder;
   }
   .reservation--explor .btn {
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
   .working {
     margin-bottom: 50px;
@@ -196,6 +198,12 @@
     margin-left: 15px;
     font-size: 1.2em;
     font-weight: bold;
+  }
+  .fa-circle {
+    font-size: 1.4em;
+  }
+  .circle__nbr {
+    font-size: 1em;
   }
   .symbole {
     padding-left: 10px;
@@ -224,6 +232,7 @@
   }
   .card--1__txt, .card--2__txt, .card--4__txt, .card--3__txt {
     font-size: 1em;
+    padding-top: 5px;
   }
   .card--1__txt a, .card--2__txt a, .card--4__txt a, .card--3__txt a {
     font-size: 1.2em;
@@ -233,6 +242,7 @@
   }
   .heart {
     position: absolute;
+    font-size: 1.3em;
   }
   .heart .fa-heart.full {
     position: absolute;
