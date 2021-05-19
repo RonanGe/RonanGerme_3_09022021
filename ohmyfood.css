@@ -141,7 +141,7 @@ aside li {
   border-radius: 20px;
   border: 2px solid #f6f6f6;
   padding-top: 20px;
-  padding-bottom: 12px;
+  padding-bottom: 15px;
   margin-top: 35px;
   width: 70%;
   font-size: 1.1em;
@@ -171,7 +171,7 @@ aside li {
           flex-direction: row;
   right: 99%;
   font-size: 1.4em;
-  top: 12px;
+  top: 17px;
 }
 
 .circle__nbr {
