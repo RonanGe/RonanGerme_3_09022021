@@ -29,7 +29,7 @@ header h1 {
   background-color: white;
   border: 10px solid white;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.7em;
   z-index: 2;
 }
 
@@ -50,7 +50,7 @@ aside {
       grid-template-columns: 50% 50%;
   -ms-grid-rows: 450px;
       grid-template-rows: 450px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .working {
@@ -74,6 +74,7 @@ aside {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  height: 65px;
 }
 
 .reservation--search__input {
@@ -89,6 +90,8 @@ aside {
 .fa-map-marker-alt {
   width: 100%;
   padding-left: 40%;
+  padding-top: 25px;
+  font-size: 1.1em;
 }
 
 .reservation--explor {
@@ -103,7 +106,7 @@ aside {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 300px;
+  height: auto;
   padding-top: 15px;
 }
 
@@ -113,6 +116,7 @@ aside {
   margin-top: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-size: 1.3em;
 }
 
 .reservation--explor p {
@@ -120,10 +124,16 @@ aside {
   text-align: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-size: 1.1em;
 }
 
 .reservation--explor .btn {
-  padding: 20px;
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+.working p {
+  font-size: 1.4em;
 }
 
 aside li {
@@ -134,6 +144,7 @@ aside li {
   padding-bottom: 12px;
   margin-top: 35px;
   width: 70%;
+  font-size: 1.1em;
   list-style: none;
   padding-left: 15px;
   display: -webkit-box;
@@ -159,14 +170,15 @@ aside li {
       -ms-flex-direction: row;
           flex-direction: row;
   right: 99%;
+  font-size: 1.4em;
 }
 
 .circle__nbr {
   position: absolute;
-  right: 0.4em;
-  top: 0.1em;
+  left: 0.3em;
+  bottom: 0.1em;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .fa-circle {
@@ -175,10 +187,12 @@ aside li {
 
 .fa-mobile-alt, .fa-list-ul, .fa-store {
   padding-right: 2%;
+  font-size: 1.1em;
 }
 
 .restaurant h3 {
   margin-left: 15px;
+  font-size: 1.4em;
 }
 
 .restaurant--cards {
@@ -193,6 +207,7 @@ figcaption {
   position: absolute;
   right: 10%;
   bottom: 5%;
+  font-size: 1.3em;
 }
 
 .restaurant--cards a {
@@ -223,6 +238,11 @@ figcaption {
 
 .card--1__txt, .card--2__txt, .card--4__txt, .card--3__txt {
   padding-left: 15px;
+  font-size: 1.1em;
+}
+
+.card--1__txt strong, .card--2__txt strong, .card--4__txt strong, .card--3__txt strong {
+  font-size: 1.2em;
 }
 
 .restaurant--cards img {
@@ -246,6 +266,7 @@ figcaption {
   right: 6%;
   color: #0a8d6d;
   padding: 7px;
+  font-weight: bold;
 }
 
 figcaption p {
@@ -258,13 +279,14 @@ footer, footer a, footer li {
   color: white;
   list-style: none;
   padding-bottom: 10px;
+  font-size: 1.1em;
 }
 
 footer h3 {
   font-family: "Shrikhand";
   margin-left: 40px;
   padding-top: 15px;
-  font-size: medium;
+  font-size: 1.2em;
   margin-top: 0;
 }
 /*# sourceMappingURL=ohmyfood.css.map */
