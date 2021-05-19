@@ -67,9 +67,10 @@
     margin-bottom: 10px;
   }
   .circle__nbr {
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-bottom: 7px;
     margin-left: 2px;
+    top: 4px;
   }
   .symbole {
     font-size: 1.1em;
@@ -248,10 +249,11 @@
     margin-bottom: 10px;
   }
   .circle__nbr {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: lighter;
     margin-bottom: 7px;
     margin-left: 2px;
+    top: 3px;
   }
   .symbole {
     padding-left: 10px;
