@@ -52,7 +52,7 @@
   }
   .working {
     margin-bottom: 75px;
-    margin-left: 0;
+    margin-left: 25%;
     font-size: 1em;
   }
   .working p {
@@ -60,10 +60,10 @@
     font-size: 1.4em;
   }
   .fa-circle {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .circle__nbr {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .symbole {
     font-size: 1.1em;
@@ -181,8 +181,6 @@
   }
   aside li {
     width: 85%;
-    padding-top: 30px;
-    padding-bottom: 30px;
     font-size: 1em;
     margin-left: 15px;
     font-weight: bold;
@@ -237,10 +235,11 @@
     font-weight: bolder;
   }
   .fa-circle {
-    font-size: 1.7em;
+    font-size: 1.2em;
+    margin-bottom: 0;
   }
   .circle__nbr {
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: lighter;
   }
   .symbole {
