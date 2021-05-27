@@ -1,0 +1,357 @@
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+  .restaurant--cards--1, .restaurant--cards--2, .restaurant--cards--3, .restaurant--cards--4 {
+    margin-left: 15px;
+  }
+  .fa-map-marker-alt {
+    padding-left: 25%;
+  }
+}
+
+@media all and (min-width: 721px) and (max-width: 1023px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  header h1 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  aside {
+    display: inline;
+  }
+  aside li {
+    width: 75%;
+    font-size: 1.2em;
+  }
+  .reservation {
+    margin-top: 57px;
+    margin-bottom: 45px;
+    height: auto;
+    width: 100%;
+    font-size: 1em;
+  }
+  .reservation--explor {
+    height: auto;
+    font-size: 1.1em;
+  }
+  .reservation--explor strong {
+    font-size: 1.3em;
+  }
+  .reservation--explor .btn {
+    padding: 15px;
+    font-size: 1.2em;
+  }
+  .reservation--search {
+    font-size: 1em;
+    height: 50px;
+  }
+  .fa-map-marker-alt {
+    padding-top: 13px;
+  }
+  .working {
+    margin-bottom: 75px;
+    font-size: 1em;
+    width: 75%;
+  }
+  .working p {
+    margin-left: 15px;
+    font-size: 1.4em;
+  }
+  .circle {
+    top: 12px;
+  }
+  .fa-circle {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .circle__nbr {
+    font-size: 0.8em;
+    margin-bottom: 7px;
+    margin-left: 2px;
+    top: 4px;
+  }
+  .symbole {
+    font-size: 1.1em;
+    margin-right: 10px;
+  }
+  section {
+    background-color: #f6f6f6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .restaurant h3 {
+    font-size: 1.4em;
+  }
+  .restaurant--cards__ligne1, .restaurant--cards__ligne2 {
+    display: block;
+  }
+  .restaurant--cards--1, .restaurant--cards--2, .restaurant--cards--3, .restaurant--cards--4 {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 15px;
+    height: auto;
+  }
+  .restaurant--cards--1 img, .restaurant--cards--2 img, .restaurant--cards--3 img, .restaurant--cards--4 img {
+    height: 175px;
+  }
+  .card--1__txt i, .card--2__txt i, .card--4__txt i, .card--3__txt i {
+    margin-right: 5%;
+  }
+  .card--1__txt, .card--2__txt, .card--4__txt, .card--3__txt {
+    font-size: 1.1em;
+  }
+  .card--1__txt strong, .card--2__txt strong, .card--4__txt strong, .card--3__txt strong {
+    font-size: 1.3em;
+  }
+  .heart {
+    position: absolute;
+    font-size: 1.4em;
+  }
+  .heart .fa-heart.full {
+    position: absolute;
+    right: 10%;
+    opacity: 0;
+  }
+  .heart i {
+    left: 90%;
+  }
+  .heart:active {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .heart:active .empty {
+    opacity: 0;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+  }
+  .heart:active .full {
+    opacity: 1;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+    z-index: 999;
+    color: #9356DC;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .heart:hover {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .heart:hover .empty {
+    opacity: 0;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+  }
+  .heart:hover .full {
+    opacity: 1;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+    z-index: 999;
+    color: #9356DC;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .cards__img2 span, .cards__img span {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  footer {
+    font-size: 1.1em;
+  }
+  footer i {
+    margin-right: 3px;
+  }
+}
+
+@media all and (max-width: 720px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  header h1 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  aside {
+    display: inline;
+  }
+  aside li {
+    width: 85%;
+    font-size: 1em;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  aside ul {
+    padding-left: 20px;
+  }
+  .reservation {
+    margin-top: 55px;
+    height: auto;
+    width: 100%;
+  }
+  .reservation--search {
+    font-size: 1em;
+    height: 50px;
+  }
+  .reservation--search__input {
+    width: 75%;
+    height: 20px;
+  }
+  .fa-map-marker-alt {
+    padding-left: 29%;
+    padding-top: 15px;
+  }
+  .reservation--explor {
+    font-size: 1.0em;
+    height: auto;
+  }
+  .reservation--explor strong {
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .reservation--explor p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .reservation--explor .btn {
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+  .working {
+    margin-bottom: 50px;
+    margin-left: 0;
+    font-size: 1.1em;
+    margin-top: 55px;
+  }
+  .working p {
+    margin-left: 15px;
+    font-size: 1.4em;
+    font-weight: bolder;
+  }
+  .circle {
+    top: 15px;
+  }
+  .fa-circle {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .circle__nbr {
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin-bottom: 7px;
+    margin-left: 2px;
+    top: 3px;
+  }
+  .symbole {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.5em;
+  }
+  section {
+    background-color: #f6f6f6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .restaurant h3 {
+    font-size: 1.4em;
+  }
+  .restaurant--cards__ligne1, .restaurant--cards__ligne2 {
+    display: block;
+  }
+  .restaurant--cards--1, .restaurant--cards--2, .restaurant--cards--3, .restaurant--cards--4 {
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 15px;
+    height: 255px;
+  }
+  .restaurant--cards--1 img, .restaurant--cards--2 img, .restaurant--cards--3 img, .restaurant--cards--4 img {
+    height: 175px;
+  }
+  .card--1__txt i, .card--2__txt i, .card--4__txt i, .card--3__txt i {
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  .card--1__txt, .card--2__txt, .card--4__txt, .card--3__txt {
+    font-size: 1em;
+    padding-top: 10px;
+  }
+  .card--1__txt a, .card--2__txt a, .card--4__txt a, .card--3__txt a {
+    font-size: 1.2em;
+  }
+  .cards__img2 span, .cards__img span {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .heart {
+    position: absolute;
+    font-size: 1.7em;
+    font-weight: 200;
+  }
+  .heart .fa-heart.full {
+    position: absolute;
+    right: 10%;
+    opacity: 0;
+  }
+  .heart i {
+    left: 90%;
+  }
+  .heart:active {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .heart:active .empty {
+    opacity: 0;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+  }
+  .heart:active .full {
+    opacity: 1;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+    z-index: 999;
+    color: #9356DC;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .heart:hover {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .heart:hover .empty {
+    opacity: 0;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+  }
+  .heart:hover .full {
+    opacity: 1;
+    -webkit-transition: 0.5s 0s ease;
+    transition: 0.5s 0s ease;
+    z-index: 999;
+    color: #9356DC;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  footer i {
+    margin-right: 3px;
+  }
+}
+/*# sourceMappingURL=media_queries_index.css.map */

@@ -1,0 +1,207 @@
+$primaire: #9356DC;
+$secondaire: #FF79DA;
+$tertiaire: #99E2D0;
+$box:#f6f6f6;
+body{
+    font-family: "Roboto";
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: black;
+}
+
+header{
+    font-family: "Shrikhand";
+    width: 100%;
+    align-items: center;
+}
+
+.fa-arrow-left{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 3;
+}
+
+header h1{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    border: 10px solid white;
+    width: 100%;
+    font-size: 1.5em;
+    z-index: 2;
+}
+
+.heart{
+    position: absolute;
+    left: 90%;
+}
+
+figure{
+    border: 4px solid $box;
+    border-radius: 25px;
+    width:99%;
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+article{
+    width: 100%;
+}
+
+figure img{
+    object-fit: cover;
+    width: 99%;
+    height: 450px;
+    border-radius: 25px 25px 0px 0px;
+    position: absolute;
+}
+
+figcaption{
+    border: $box 5px solid;
+    border-radius: 25px;
+    background-color: $box; 
+    position: relative;
+    z-index: 1;
+    top: 390px;
+}
+
+.menu h2{
+    font-family: "Shrikhand";
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.menu_carte{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 99%;
+    margin-right: 0;
+}
+
+.entree, .plat, .dessert{
+    margin-left: 30px;
+    width: 31%;
+    font-size: 1em;
+}
+
+.entree p, .plat p, .dessert p
+{
+    padding-bottom: 15px;
+    border-bottom: 2px solid $tertiaire;
+    width:8%;
+}
+
+
+.menu_ligne{
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 25px;
+    width:100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    &:hover{
+        .check{
+            display: block;
+        }
+    }
+}
+
+.menu_ligne p{
+    padding-bottom: 0;
+    border-bottom: none;
+    width: 100%;
+    margin-left: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.menu_ligne h3{
+    margin-left: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.1em;
+}
+
+.menu_txt{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 85%;
+    font-size: 1em;
+}
+
+.price-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 15px;
+    text-align: right;
+}
+
+.price{
+    font-size: 1.1em;
+}
+
+.check{
+    background-color: $tertiaire;
+    width: 15%;
+    border-radius: 0px 25px 25px 0px;
+    position: relative;
+    display: none;
+}
+
+.fa-check-circle{
+    color: white;
+    background-color: $tertiaire;
+    font-size: 1.3em;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    margin-left: 15px;
+}
+
+footer{
+    margin-top: 400px;
+    z-index: 4;
+    position: relative;
+}
+
+footer, footer a, footer li
+{
+    background-color: rgb(53,53,53);
+    color: white;
+    list-style: none;
+    padding-bottom:10px;
+}
+
+footer h3
+{ font-family:"Shrikhand";
+    margin-left: 40px;
+    padding-top: 15px;
+    font-size: medium;
+}
+

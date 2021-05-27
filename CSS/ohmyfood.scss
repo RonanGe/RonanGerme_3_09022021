@@ -1,0 +1,276 @@
+$primaire: #9356DC;
+$secondaire: #FF79DA;
+$tertiaire: #99E2D0;
+$box: #f6f6f6;
+body{
+    font-family: "Roboto";
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: black;
+}
+
+header{
+    font-family: "Shrikhand";
+    width: 100%;
+    align-items: center;
+}
+
+header h1{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    border: 10px solid white;
+    width: 100%;
+    font-size: 1.7em;
+    z-index: 2;
+}
+
+.reservation{
+    margin-top: 40px;
+    height: 450px;
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+aside
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 450px;
+    margin-top: 60px;
+}
+
+.working
+{
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+
+.reservation--search{
+    background-color: rgb(234, 234, 234);
+    border-top: 2px solid gray;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+}
+
+.reservation--search__input{
+    background-color: rgb(234, 234, 234);
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+    padding-left: 15px;
+}
+
+.fa-map-marker-alt{
+    width: 100%;
+    padding-left: 40%;
+    padding-top: 25px;
+    font-size: 1.1em;
+}
+
+.reservation--explor{
+    background-color:  $box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto ;
+    padding-top: 15px;
+}
+
+.reservation--explor strong{
+    font-style: normal ;
+    font-weight: bold;
+    margin-top:40px;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+}
+
+.reservation--explor p{
+    margin-top: 3px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+}
+
+.reservation--explor .btn{
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+.working p{
+    font-size: 1.4em;
+}
+
+aside li{
+    background-color: $box;
+    border-radius: 20px;
+    border: 2px solid $box;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-top: 35px;
+    width: 70%;
+    font-size: 1.1em;
+    list-style: none;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    box-shadow: 6px 6px 10px silver;
+
+    &:hover{
+        background-color:rgb(245, 237, 255);
+    }
+}
+
+.circle{
+    position: absolute;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    right: 99%;
+    font-size: 1.4em;
+    top: 17px;
+}
+
+.circle__nbr{
+    position: absolute;
+    left: 0.4em;
+    bottom: 0.1em;
+    color: white;
+    font-size: 0.7em;
+}
+
+.fa-circle{
+    color: $primaire;
+}
+
+.fa-mobile-alt, .fa-list-ul, .fa-store
+{
+    padding-right: 2%;
+    font-size: 1.1em;
+}
+
+.restaurant h3{
+    margin-left: 15px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.restaurant--cards
+{
+    width: 100%;
+}
+
+figcaption{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    font-size: 1.4em;
+}
+
+.restaurant--cards a{
+    width: 100%;
+}
+
+.restaurant--cards__ligne1, .restaurant--cards__ligne2
+{
+    display:inline-flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.restaurant--cards--1, .restaurant--cards--2, .restaurant--cards--3, .restaurant--cards--4
+{
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: $box;
+    margin-right: 15px;
+    margin-left: 45px;
+    box-shadow: 4px 4px 10px silver;
+}
+
+.card--1__txt, .card--2__txt, .card--4__txt, .card--3__txt{
+    padding-left: 15px;
+    font-size: 1.1em;
+}
+
+.card--1__txt strong, .card--2__txt strong, .card--4__txt strong, .card--3__txt strong{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.restaurant--cards img
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+
+}
+
+.cards__img2, .cards__img
+{
+    position: relative;
+}
+.cards__img2 span, .cards__img span
+{
+    background-color: $tertiaire;
+    border-radius: 2px;
+    margin-top: 15px;
+    position: absolute;
+    z-index: 1;
+    right: 6%;
+    color: rgb(10, 141, 109);
+    padding: 9px;
+    font-weight: bold;
+}
+
+figcaption p{
+    padding-top: 7px;
+    margin-top: 0;
+}
+
+footer, footer a, footer li
+{
+    background-color: rgb(53,53,53);
+    color: white;
+    list-style: none;
+    padding-bottom:10px;
+    font-size: 1.1em;
+}
+
+footer h3
+{ font-family:"Shrikhand";
+    margin-left: 40px;
+    padding-top: 15px;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
