@@ -24,6 +24,10 @@
   .check {
     width: 10%;
   }
+  .btn {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
 }
 
 @media all and (max-width: 720px) {
@@ -105,6 +109,7 @@
   .entree, .plat, .dessert {
     margin-left: 0;
     width: 100%;
+    margin-bottom: 50px;
   }
   .menu_ligne {
     width: 95%;
@@ -201,6 +206,10 @@
   }
   .fa-check-circle {
     font-size: 1.5em;
+  }
+  .btn {
+    margin-right: 30%;
+    margin-left: 30%;
   }
   footer {
     margin-top: 260px;
